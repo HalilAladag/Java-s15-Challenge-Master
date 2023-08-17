@@ -112,8 +112,8 @@ public class Library {
             if (item instanceof Author) {
                 Author a = (Author) item;
                 authorInfo = a;
+            }
         }
-    }
         return authorInfo;
     }
 

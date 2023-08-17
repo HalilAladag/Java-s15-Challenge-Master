@@ -63,8 +63,8 @@ public class Book extends Category {
     private ArrayList borrowedItems = new ArrayList();
     public List<Item> getBorrowedItems() {
 
-            return new ArrayList<>(borrowedItems);
-        }
+        return new ArrayList<>(borrowedItems);
+    }
         /*public boolean hasOverdueItems() {
         for (Map.Entry<Item, Integer> entry : borrowedItems.values()) {
             if (entry.getValue() > 14) {

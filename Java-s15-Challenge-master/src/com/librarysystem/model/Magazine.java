@@ -36,7 +36,7 @@ public class Magazine extends Item{
         }
     }
 
-   // @Override
+    // @Override
     public void returnItem(User user) {
         if (borrowed && user.magazineHasBorrowed(this)) {
             borrowed = false;
